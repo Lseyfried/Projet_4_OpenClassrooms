@@ -41,7 +41,7 @@ a:hover {
 
 .bloc .container {
   padding-left: 0;
-  padding-right: 0;
+  /* padding-right: 0; */
 }
 
 .bloc-lg {
@@ -1051,8 +1051,8 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
-  .social {
+  /* .social {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 }
