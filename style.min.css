@@ -746,7 +746,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
-  width: 380px;
+  /* width: 380px; */
   margin: auto;
 }
 
@@ -1055,4 +1055,7 @@ h4 {
     display: flex;
     justify-content: space-between;
   } */
+  .portfolio-thumb {
+    width: 380px;
+  }
 }
