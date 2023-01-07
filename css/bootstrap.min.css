@@ -1432,9 +1432,9 @@ figure {
   margin: 0;
 }
 
-/* img {
+img {
   vertical-align: middle;
-} */
+}
 
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
@@ -1442,7 +1442,7 @@ figure {
 .thumbnail a > img,
 .thumbnail > img {
   display: block;
-  /* max-width: 100%; */
+  max-width: 100%;
   height: auto;
 }
 
@@ -2018,7 +2018,7 @@ pre code {
 
 .row {
   margin-right: -15px;
-  /* margin-left: -15px; */
+  margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2073,7 +2073,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  /* margin-left: 15px; */
+  margin-left: 15px;
 }
 
 .col-xs-1,
@@ -5203,7 +5203,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  /* padding: 15px 15px; */
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -5227,7 +5227,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle {
   position: relative;
   float: right;
-  /* padding: 9px 10px; */
+  padding: 9px 10px;
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;

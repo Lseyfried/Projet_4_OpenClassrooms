@@ -41,7 +41,7 @@ a:hover {
 
 .bloc .container {
   padding-left: 0;
-  /* padding-right: 0; */
+  padding-right: 0;
 }
 
 .bloc-lg {
@@ -282,6 +282,7 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
+  margin-left: 0;
 }
 
 #bloc-1-hero h1 {
@@ -291,11 +292,12 @@ a:hover {
 .navbar {
   margin-bottom: 0;
   z-index: 1;
+  width: 100%;
 }
 
 .navbar-brand {
   height: auto;
-  /* padding: 3px 15px; */
+  padding: 0;
   font-size: 25px;
   font-weight: normal;
   font-weight: 600;
@@ -403,6 +405,12 @@ a:hover {
   .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
+  }
+  .col-sm-4 {
+    margin: 0;
+  }
+  .col-sm-6 {
+    margin: auto;
   }
 }
 
@@ -764,7 +772,7 @@ h4 {
 
 .black-background {
   background-color: rgba(165, 147, 99, 0.7);
-  padding: 40px 40px 40px 40px;
+  /* padding: 40px 40px 40px 40px; */
 }
 
 .bold-link {
@@ -830,7 +838,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/agence-la-panthere.jpg");
+  background-image: url("img/agence-la-panthere.webp");
   width: 100%;
   height: 440px;
 }
@@ -1063,3 +1071,4 @@ h4 {
     width: 380px;
   } */
 }
+/* Ecrasement bootstrap */
