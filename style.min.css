@@ -1073,5 +1073,8 @@ h4 {
   height: 100px;
 }
 .row {
-  margin: 0;
+  margin: auto;
 }
+/* .container-ready {
+  margin: 0 !important;
+} */
