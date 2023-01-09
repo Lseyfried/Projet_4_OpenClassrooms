@@ -1072,3 +1072,6 @@ h4 {
 .center-block {
   height: 100px;
 }
+.row {
+  margin: 0;
+}
