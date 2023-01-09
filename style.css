@@ -706,6 +706,10 @@ h3 {
   }
 }
 @media (max-width: 991px) {
+  .col-md-8,
+  .col-xs-12 {
+    margin-left: 0;
+  }
   .container {
     width: 100%;
   }
@@ -871,8 +875,4 @@ h3 {
 
 a:focus {
   border: 1px dashed #000;
-}
-.col-md-8,
-.col-xs-12 {
-  margin-left: 0;
 }
