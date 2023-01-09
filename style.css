@@ -868,9 +868,11 @@ h3 {
     text-align: center;
   }
 }
-.center-block {
-  height: 100px;
-}
+
 a:focus {
   border: 1px dashed #000;
+}
+.col-md-8,
+.col-xs-12 {
+  margin-left: 0;
 }
