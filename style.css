@@ -1078,3 +1078,6 @@ h4 {
 /* .container-ready {
   margin: 0 !important;
 } */
+a:focus {
+  border: 1px solid black;
+}
