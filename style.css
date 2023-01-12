@@ -83,7 +83,7 @@ a:hover {
 .bg-t-edge {
   background: top no-repeat;
 }
-.bloc-bg-texture::before {
+.bloc-bg-texture:before {
   content: "";
   background-size: 2px 2px;
   position: absolute;
@@ -92,7 +92,7 @@ a:hover {
   left: 0;
   right: 0;
 }
-.texture-paper::before {
+.texture-paper:before {
   background: url("img/texture-paper.webp") 0 0/280px 280px;
 }
 .nav > li > .dropdown a,
@@ -444,7 +444,7 @@ a[data-lightbox] {
   display: block;
   text-align: center;
 }
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover:before {
   content: "+";
   font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
@@ -872,7 +872,6 @@ h3 {
     text-align: center;
   }
 }
-
 a:focus {
   border: 1px dashed #000;
 }
