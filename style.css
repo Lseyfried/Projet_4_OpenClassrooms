@@ -584,6 +584,7 @@ p {
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto;
+  font-size: 17px;
 }
 .h1 {
   font-size: 20px;
